@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Resume Analyzer</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:40px;
+}
+
+textarea{
+width:600px;
+height:200px;
+}
+
+button{
+padding:10px;
+font-size:16px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>AI Resume Analyzer</h1>
+
+<form method="POST">
+
+<textarea name="resume"
+placeholder="Paste your resume here"></textarea>
+
+<br><br>
+
+<button type="submit">Analyze Resume</button>
+
+</form>
+
+<hr>
+
+<h2>Result</h2>
+
+<pre>{{ result }}</pre>
+
+</body>
+
+</html>
